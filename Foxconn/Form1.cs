@@ -32,6 +32,7 @@ namespace Foxconn
         /// <summary>
         /// PD TOTAL HOURS= ( PD OP* HOURS)+(PD OP OT* OT)
         /// </summary>
+        public float toplamcalismasaati = 0;
 
         public Form1()
         {
@@ -76,6 +77,9 @@ namespace Foxconn
                     Liste.SubItems.Add(reader["EngineeringStdForecast"].ToString());
                     Liste.SubItems.Add(reader["Downtimes"].ToString());
                     listView1.Items.Add(Liste);
+                    toplamcalismasaati += float.Parse(reader["CalismaSaati"].ToString());
+                    lblcalismasaati.Text = toplamcalismasaati.ToString();
+
                     //@Takvim,@CalisanHat,@Hat,@Vardiya,@UPH,@CalismaSaati,@OT,@Pdop,@PdopOTCalisan,
                     //@TotalTime,@EngineeringStandart,@Hedef,@Gerceklesen,@Planli,@Plansiz,@Rapor,@EngineeringStdForecast,@Downtimes
                 }
@@ -112,9 +116,19 @@ namespace Foxconn
                     Liste.SubItems.Add(eposta);
                     Liste.SubItems.Add(comboBox1.Text);*/
 
-                    SqlCommand comm = new SqlCommand("Insert Into repair values (@Tarih)", baglanti);
+                SqlCommand comm = new SqlCommand("Insert Into repair values (@Tarih,@Vardiya,@CalismaSaati,@Input,@Hw,@Sw,@Te,@Scretched,@OnSite,@FPF,@MTTR)", baglanti);
                     //Sql sorgumuzdaki parametreleri dolduruyoruz. örnek: @Isim parametresine gelecek değer textBox1'in Text'idir gibi.
                     comm.Parameters.AddWithValue("@Tarih", dateTimePicker1.Value.ToString());
+                    comm.Parameters.AddWithValue("@Vardiya", "formül");
+                    comm.Parameters.AddWithValue("@CalismaSaati", toplamcalismasaati);
+                    comm.Parameters.AddWithValue("@Input", "frsd");
+                    comm.Parameters.AddWithValue("@Hw", "fre");
+                    comm.Parameters.AddWithValue("@Sw", "rfe");
+                    comm.Parameters.AddWithValue("@Te", "frv");
+                    comm.Parameters.AddWithValue("@Scretched", "rfd");
+                    comm.Parameters.AddWithValue("@OnSite", "rfsd");
+                    comm.Parameters.AddWithValue("@FPF", "dsr");
+                    comm.Parameters.AddWithValue("@MTTR", "vgrfs");
                     baglanti.Open(); //Bağlantıyı açıyoruz.
                     comm.ExecuteNonQuery(); //Komutu çalıştırıyoruz.
                     baglanti.Close(); //Ve sonra bağlantıyı kapatıyoruz.

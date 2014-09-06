@@ -104,6 +104,7 @@
             this.verileriGüncelleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblcalismasaati = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -511,6 +512,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblcalismasaati);
             this.groupBox2.Controls.Add(this.btnkaydet);
             this.groupBox2.Controls.Add(this.btnguncelle);
             this.groupBox2.Controls.Add(this.btnsil);
@@ -731,13 +733,13 @@
             // araToolStripMenuItem
             // 
             this.araToolStripMenuItem.Name = "araToolStripMenuItem";
-            this.araToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.araToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.araToolStripMenuItem.Text = "Ara";
             // 
             // çıkışToolStripMenuItem
             // 
             this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.çıkışToolStripMenuItem.Text = "Çıkış";
             // 
             // yöneticiToolStripMenuItem
@@ -746,8 +748,8 @@
             this.yöneticiBilgileriToolStripMenuItem,
             this.verileriGüncelleToolStripMenuItem});
             this.yöneticiToolStripMenuItem.Name = "yöneticiToolStripMenuItem";
-            this.yöneticiToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.yöneticiToolStripMenuItem.Text = "Yönetici";
+            this.yöneticiToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.yöneticiToolStripMenuItem.Text = "Ayarlar";
             // 
             // yöneticiBilgileriToolStripMenuItem
             // 
@@ -776,6 +778,15 @@
             this.hakkındaToolStripMenuItem.Text = "Hakkında";
             this.hakkındaToolStripMenuItem.Click += new System.EventHandler(this.hakkındaToolStripMenuItem_Click);
             // 
+            // lblcalismasaati
+            // 
+            this.lblcalismasaati.AutoSize = true;
+            this.lblcalismasaati.Location = new System.Drawing.Point(24, 146);
+            this.lblcalismasaati.Name = "lblcalismasaati";
+            this.lblcalismasaati.Size = new System.Drawing.Size(13, 13);
+            this.lblcalismasaati.TabIndex = 30;
+            this.lblcalismasaati.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -802,6 +813,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -887,6 +899,7 @@
         private System.Windows.Forms.ToolStripMenuItem verileriGüncelleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem yardımToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hakkındaToolStripMenuItem;
+        private System.Windows.Forms.Label lblcalismasaati;
     }
 }
 

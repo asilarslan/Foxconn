@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.tbcalismasaati = new System.Windows.Forms.TextBox();
+            this.tbinput = new System.Windows.Forms.TextBox();
+            this.tbhw = new System.Windows.Forms.TextBox();
+            this.tbsw = new System.Windows.Forms.TextBox();
+            this.tbfpf = new System.Windows.Forms.TextBox();
+            this.tbonsite = new System.Windows.Forms.TextBox();
+            this.tbscretched = new System.Windows.Forms.TextBox();
+            this.tbte = new System.Windows.Forms.TextBox();
+            this.tbmttr = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,80 +47,80 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnkaydet = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbvardiya = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbcalismasaati
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(122, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.tbcalismasaati.Enabled = false;
+            this.tbcalismasaati.Location = new System.Drawing.Point(122, 19);
+            this.tbcalismasaati.Name = "tbcalismasaati";
+            this.tbcalismasaati.Size = new System.Drawing.Size(100, 20);
+            this.tbcalismasaati.TabIndex = 0;
             // 
-            // textBox2
+            // tbinput
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(122, 45);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.tbinput.Enabled = false;
+            this.tbinput.Location = new System.Drawing.Point(122, 45);
+            this.tbinput.Name = "tbinput";
+            this.tbinput.Size = new System.Drawing.Size(100, 20);
+            this.tbinput.TabIndex = 1;
             // 
-            // textBox3
+            // tbhw
             // 
-            this.textBox3.Location = new System.Drawing.Point(122, 71);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.tbhw.Location = new System.Drawing.Point(122, 71);
+            this.tbhw.Name = "tbhw";
+            this.tbhw.Size = new System.Drawing.Size(100, 20);
+            this.tbhw.TabIndex = 2;
             // 
-            // textBox4
+            // tbsw
             // 
-            this.textBox4.Location = new System.Drawing.Point(122, 97);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.tbsw.Location = new System.Drawing.Point(122, 97);
+            this.tbsw.Name = "tbsw";
+            this.tbsw.Size = new System.Drawing.Size(100, 20);
+            this.tbsw.TabIndex = 3;
             // 
-            // textBox5
+            // tbfpf
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(122, 201);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 7;
+            this.tbfpf.Enabled = false;
+            this.tbfpf.Location = new System.Drawing.Point(122, 201);
+            this.tbfpf.Name = "tbfpf";
+            this.tbfpf.Size = new System.Drawing.Size(100, 20);
+            this.tbfpf.TabIndex = 7;
             // 
-            // textBox6
+            // tbonsite
             // 
-            this.textBox6.Location = new System.Drawing.Point(122, 175);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 6;
+            this.tbonsite.Location = new System.Drawing.Point(122, 175);
+            this.tbonsite.Name = "tbonsite";
+            this.tbonsite.Size = new System.Drawing.Size(100, 20);
+            this.tbonsite.TabIndex = 6;
             // 
-            // textBox7
+            // tbscretched
             // 
-            this.textBox7.Location = new System.Drawing.Point(122, 149);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 5;
+            this.tbscretched.Location = new System.Drawing.Point(122, 149);
+            this.tbscretched.Name = "tbscretched";
+            this.tbscretched.Size = new System.Drawing.Size(100, 20);
+            this.tbscretched.TabIndex = 5;
             // 
-            // textBox8
+            // tbte
             // 
-            this.textBox8.Location = new System.Drawing.Point(122, 123);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 4;
+            this.tbte.Location = new System.Drawing.Point(122, 123);
+            this.tbte.Name = "tbte";
+            this.tbte.Size = new System.Drawing.Size(100, 20);
+            this.tbte.TabIndex = 4;
             // 
-            // textBox9
+            // tbmttr
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(122, 227);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 8;
+            this.tbmttr.Enabled = false;
+            this.tbmttr.Location = new System.Drawing.Point(122, 227);
+            this.tbmttr.Name = "tbmttr";
+            this.tbmttr.Size = new System.Drawing.Size(100, 20);
+            this.tbmttr.TabIndex = 8;
             // 
             // label1
             // 
@@ -207,22 +207,22 @@
             // 
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tbcalismasaati);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tbinput);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.tbhw);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.tbsw);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.tbte);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.tbscretched);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.tbonsite);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.tbfpf);
+            this.groupBox1.Controls.Add(this.tbmttr);
             this.groupBox1.Location = new System.Drawing.Point(12, 60);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(237, 269);
@@ -230,14 +230,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Repair";
             // 
-            // button1
+            // btnkaydet
             // 
-            this.button1.Location = new System.Drawing.Point(12, 335);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnkaydet.Location = new System.Drawing.Point(12, 335);
+            this.btnkaydet.Name = "btnkaydet";
+            this.btnkaydet.Size = new System.Drawing.Size(75, 23);
+            this.btnkaydet.TabIndex = 19;
+            this.btnkaydet.Text = "Kaydet";
+            this.btnkaydet.UseVisualStyleBackColor = true;
+            this.btnkaydet.Click += new System.EventHandler(this.btnkaydet_Click);
             // 
             // button2
             // 
@@ -264,34 +265,35 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(204, 20);
             this.dateTimePicker1.TabIndex = 22;
             // 
-            // comboBox1
+            // cbvardiya
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbvardiya.FormattingEnabled = true;
+            this.cbvardiya.Items.AddRange(new object[] {
             "DAY",
             "NIGHT"});
-            this.comboBox1.Location = new System.Drawing.Point(33, 38);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(201, 21);
-            this.comboBox1.TabIndex = 23;
-            this.comboBox1.Text = "Vardiya";
+            this.cbvardiya.Location = new System.Drawing.Point(33, 38);
+            this.cbvardiya.Name = "cbvardiya";
+            this.cbvardiya.Size = new System.Drawing.Size(201, 21);
+            this.cbvardiya.TabIndex = 23;
+            this.cbvardiya.Text = "Vardiya";
             // 
             // Repair
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(261, 364);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbvardiya);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnkaydet);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Repair";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Foxconn TR ";
+            this.Load += new System.EventHandler(this.Repair_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -300,15 +302,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox tbcalismasaati;
+        private System.Windows.Forms.TextBox tbinput;
+        private System.Windows.Forms.TextBox tbhw;
+        private System.Windows.Forms.TextBox tbsw;
+        private System.Windows.Forms.TextBox tbfpf;
+        private System.Windows.Forms.TextBox tbonsite;
+        private System.Windows.Forms.TextBox tbscretched;
+        private System.Windows.Forms.TextBox tbte;
+        private System.Windows.Forms.TextBox tbmttr;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -319,10 +321,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnkaydet;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbvardiya;
     }
 }
